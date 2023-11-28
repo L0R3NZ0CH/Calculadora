@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;  /* centra horizontalmene */
+    align-items: center; /* centra verticalmente */
+    height: 100vh;
+}
+
+.pantalla{
+grid-column: span 4;
+height: 80px;
+width: 250px;
+background-color: bisque;
+border: none;
+border-radius: 10px;
+font-size: 30px;
+text-align: end;
+margin: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.Calculadora{
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px; 
+}
+.Sis-numero {
+    display: flex;
+}
+button:hover{
+    color: white;
+}
+button {
+    background-color: orange;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: none;
+    margin: 2px;
+  }
+  
+  .cero{
+    width: 100%;
+    text-align: left;
+    padding-left: 25px;
+  }
